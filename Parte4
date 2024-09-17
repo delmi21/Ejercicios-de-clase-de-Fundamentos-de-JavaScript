@@ -1,0 +1,17 @@
+// Objetos literales no indexados
+const animal = {
+  color:"Azul",
+  nombre:"Torogoz",
+  volando: true
+}
+ 
+//destructuring objetos literales...
+const {color, nombre, volando} = animal;
+console.log("El " + nombre + " es de color: " + color);
+
+//arrays indexados
+const frutas =["Pera", "Manzana", "sandia"];
+
+//destructuring arrays
+const [pera, manzana, sandia] = frutas;
+console.log("A mi me gusta mucho la " + pera);
