@@ -1,0 +1,21 @@
+// Objetos literales y Optional chaining operator
+const frutas = ["pera","manzana"];
+console.log(frutas[1]);
+
+// Objetos literales no indexados
+const animal = {
+  color:"Narajna",
+  nombre:"Simba",
+  rugiendo: true
+}
+console.log("Este leon es de color:" + animal.color);
+console.log("Y su nombre es:" + animal.nombre);
+console.log(animal["rugiendo"]);
+
+// Ejercicio
+const tareas = {
+  "2359-91g68hf67hfg7gugu" : {
+    title: "tarea #01"
+  }
+}
+console.log(tareas["2359-91g68hf67hfg7gugu"].title);
