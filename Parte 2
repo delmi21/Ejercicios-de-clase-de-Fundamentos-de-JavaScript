@@ -1,0 +1,17 @@
+// Objetos literales no indexados
+const animal = {
+  color:"Narajna",
+  nombre:"Simba",
+  rugiendo: true,
+  favoritos:{
+    dia:{
+      ok:true,
+    },
+    noche:{
+      ok:false
+    }
+  }
+  
+}
+console.log(animal.favoritos.dia.ok);
+console.log(animal.favoritos.luna?.ok);
